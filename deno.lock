@@ -7,6 +7,7 @@
     "npm:@capacitor/core@^7.2.0": "7.2.0",
     "npm:@preact/preset-vite@^2.10.1": "2.10.1_@babel+core@7.26.10_vite@6.2.4_preact@10.26.4",
     "npm:@tailwindcss/vite@^4.1.1": "4.1.1_vite@6.2.4",
+    "npm:preact-router@^4.1.2": "4.1.2_preact@10.26.4",
     "npm:preact@^10.26.2": "10.26.4",
     "npm:tailwindcss@^4.1.1": "4.1.1",
     "npm:typescript@~5.7.2": "5.7.3",
@@ -1212,6 +1213,12 @@
         "source-map-js"
       ]
     },
+    "preact-router@4.1.2_preact@10.26.4": {
+      "integrity": "sha512-uICUaUFYh+XQ+6vZtQn1q+X6rSqwq+zorWOCLWPF5FAsQh3EJ+RsDQ9Ee+fjk545YWQHfUxhrBAaemfxEnMOUg==",
+      "dependencies": [
+        "preact"
+      ]
+    },
     "preact@10.26.4": {
       "integrity": "sha512-KJhO7LBFTjP71d83trW+Ilnjbo+ySsaAgCfXOXUlmGzJ4ygYPWmysm77yg4emwfmoz3b22yvH5IsVFHbhUaH5w=="
     },
@@ -1506,6 +1513,7 @@
         "npm:@capacitor/core@^7.2.0",
         "npm:@preact/preset-vite@^2.10.1",
         "npm:@tailwindcss/vite@^4.1.1",
+        "npm:preact-router@^4.1.2",
         "npm:preact@^10.26.2",
         "npm:tailwindcss@^4.1.1",
         "npm:typescript@~5.7.2",
